@@ -1,6 +1,6 @@
 package br.com.devdojo.polomorfismo.polimorfismo_interface;
 
-public class SalvarEmArquivoDeTesto implements InterfaceDAO{
+public class SalvarEmArquivoDeTexto implements InterfaceDAO{
 
     @Override
     public void salvarDados() {
