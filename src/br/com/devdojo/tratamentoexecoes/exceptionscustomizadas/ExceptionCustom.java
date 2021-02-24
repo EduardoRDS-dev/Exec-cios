@@ -27,7 +27,6 @@ public class ExceptionCustom {
 
         if (!emailBancoDeDados.equals(emailDigitado) || !senhaBancoDeDados.equals(senhaDigitada)) {
             throw new LoginInvalidoException();
-
         } else {
             System.out.println("Logado com sucesso!");
         }
