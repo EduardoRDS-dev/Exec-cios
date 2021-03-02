@@ -75,3 +75,10 @@ public class teste {
     }
 }
 ```
+Usando Emoji:
+
+:smile: :raised_back_of_hand: :vulcan_salute: :dollar: 
+
+:sunglasses: :yum: :desktop_computer:  :moneybag: 
+
+[CLICK AQUI PARA VER MAIS EMOJIS](https://github.com/ikatyang/emoji-cheat-sheet#hand-single-finger) :vulcan_salute:
