@@ -5,6 +5,7 @@ public abstract class Funcionario {
     protected String funcao;
     protected double salario;
     protected String descricao;
+    protected int num;
 
     public Funcionario(String nome, String funcao, double salario) {
         this.nome = nome;
