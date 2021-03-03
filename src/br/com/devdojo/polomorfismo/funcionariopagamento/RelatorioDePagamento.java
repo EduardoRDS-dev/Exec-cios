@@ -1,4 +1,4 @@
-package br.com.devdojo.polomorfismo.funcionarioparagamento;
+package br.com.devdojo.polomorfismo.funcionariopagamento;
 
 public class RelatorioDePagamento {
 

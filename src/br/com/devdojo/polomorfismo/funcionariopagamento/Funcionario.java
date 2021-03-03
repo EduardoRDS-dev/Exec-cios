@@ -1,4 +1,4 @@
-package br.com.devdojo.polomorfismo.funcionarioparagamento;
+package br.com.devdojo.polomorfismo.funcionariopagamento;
 
 public abstract class Funcionario {
     protected String nome;
@@ -9,8 +9,6 @@ public abstract class Funcionario {
         this.nome = nome;
         this.funcao = funcao;
         this.salario = salario;
-
-
     }
 
     public Funcionario() {

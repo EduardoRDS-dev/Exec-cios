@@ -1,9 +1,9 @@
-package br.com.devdojo.polomorfismo.funcionarioparagamento.testfuncionariopagamento;
+package br.com.devdojo.polomorfismo.funcionariopagamento.testfuncionariopagamento;
 
-import br.com.devdojo.polomorfismo.funcionarioparagamento.Funcionario;
-import br.com.devdojo.polomorfismo.funcionarioparagamento.Gerente;
-import br.com.devdojo.polomorfismo.funcionarioparagamento.RelatorioDePagamento;
-import br.com.devdojo.polomorfismo.funcionarioparagamento.Vendedor;
+import br.com.devdojo.polomorfismo.funcionariopagamento.Funcionario;
+import br.com.devdojo.polomorfismo.funcionariopagamento.Gerente;
+import br.com.devdojo.polomorfismo.funcionariopagamento.RelatorioDePagamento;
+import br.com.devdojo.polomorfismo.funcionariopagamento.Vendedor;
 
 public class Test {
 
