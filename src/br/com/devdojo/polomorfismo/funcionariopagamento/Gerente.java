@@ -7,7 +7,6 @@ public class Gerente extends Funcionario {
     public Gerente(String nome, String funcao, double salario, double participacaoNosLucros) {
         super(nome, funcao, salario);
         this.participacaoNosLucros = participacaoNosLucros;
-
     }
 
     public Gerente() {
