@@ -16,11 +16,9 @@ public class Gerente extends Funcionario {
     public void calcularPagamento(){
         salario = salario + participacaoNosLucros;
     }
-
     public double getParticipacaoNosLucros() {
         return participacaoNosLucros;
     }
-
     public void setParticipacaoNosLucros(double participacaoNosLucros) {
         this.participacaoNosLucros = participacaoNosLucros;
     }
