@@ -57,7 +57,7 @@ Imagem:
 
 Link:
 
-[ Visite meu perfil ](https://github.com/EduardoRDS-dev)
+[Meu perfil](https://github.com/EduardoRDS-dev)
 
 Escrever comandos:
 
