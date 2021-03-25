@@ -23,5 +23,5 @@ no sistema, o **'DB** já existente será sobrescrito, resultando na perda dos d
   
 ###Definição de banco de dados:
 
-"Um banco de dados é um conjunto de tabelas, tabela é um conjunto de campos e campo
-é conjuntos de registros".
+"Um banco de dados é um conjunto de tabelas, tabela é um conjunto de campos, e campo
+é um conjunto de registros.
