@@ -1,4 +1,4 @@
-##Alterar estrutura  da tabela
+###Alterar estrutura  da tabela
 
 
 * *Deletando uma tabela inteira:*

@@ -1,4 +1,4 @@
-##Atualizando registro:
+###Atualizando registro:
 
 * *Para atualizar um registro usa-se o comando `update` acompanhado do nome da table que o contém.
 Em seguida usa-se o comando `set ` acompanhado do nome do campo que será atualizado.*
