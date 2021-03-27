@@ -25,6 +25,7 @@ no sistema, o **'DB** já existente será sobrescrito, resultando na perda dos d
 * *comando para ver com o banco de dados foi criado:*
 
 `show create databases nome_do_banco`
+
 ###Definição de banco de dados:
 
 "Um banco de dados é um conjunto de tabelas, tabela é um conjunto de campos, e campo
