@@ -1,4 +1,4 @@
-###criando banco de dados:
+###Criando banco de dados:
 ```
 create database if not exists cadastro
 default character set utf8
@@ -9,7 +9,7 @@ default collate utf8_general_ci;
 
 
 * *Os comandos `default character set utf8` e `default collate utf8_general_ci` são para
-hábilitar o uso de caracteres acentuados no banco de dados.*
+habilitar o uso de caracteres acentuados no banco de dados.*
   
 
 * *O comando `if not exists`
