@@ -61,7 +61,7 @@ resultado f2= "Eduardo Rodrigues"
  teste.toLowerCase();
  resultado = "goku"
 
- 7- pegar um apenas um pedaço da string usa-se o método "substring('','')" o primeiro parâmetro passado conta
+ 7- apagar apenas um pedaço da string usa-se o método "substring('','')" o primeiro parâmetro passado conta
  a string com o primeiro índice valendo 0, o segundo parâmetro conta a  string com o primeiro índice valendo 1.
  Exemplo de uso:
 
