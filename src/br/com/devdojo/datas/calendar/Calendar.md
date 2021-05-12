@@ -3,7 +3,7 @@
 A class Calendar foi introduzida para substituir a class Date.
 
 ### Declaração da class: ###
- Por seu uma class abstrata esse é a forma de se obter uma instância desta class.
+ Por ser uma class abstrata esse é a forma de se obter uma instância desta class.
 ```
 Calendar date = Calendar.getInstace();
 ```
