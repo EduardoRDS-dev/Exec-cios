@@ -5,32 +5,32 @@ import java.io.IOException;
 
 public class CheckedException {
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         try {
             System.out.println(abrirArquivo());
-        } catch (Exception e) {
+        } catch (final Exception e) {
             e.printStackTrace();
         }
     }
 
     public static void criarArquivo() throws IOException {
 
-        File file = new File("Arquivo.txt");
+        final File file = new File("Arquivo.txt");
         try {
             System.out.println("Arquivo criado? " + file.createNewFile());
-        } catch (IOException exception) {
+        } catch (final IOException exception) {
             exception.printStackTrace();
             throw exception;
         }
     }
 
-    public static int dividirDoisNumeros(int num1, int num2) {
+    public static int dividirDoisNumeros(final int num1, final int num2) {
 
         if (num2 == 0) {
             throw new IllegalArgumentException("Passe um valor diferente de zero para num2!");
         }
 
-        int result = num1 / num2;
+        final int result = num1 / num2;
         return result;
     }
 
@@ -41,7 +41,9 @@ public class CheckedException {
             System.out.println("lendo arquivo");
             System.out.println("escrevendo no arquivo");
 
-        } catch (Exception e) {
+        } catch (final Exception e) {
+
+
             e.printStackTrace();
             throw e;
         } finally {
