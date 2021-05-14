@@ -6,7 +6,7 @@ public class CalculaSalarioTest {
 
         System.out.println(calculaSalario(3000));
         System.out.println(calcSalario(5000));
-        System.out.println(diasDaSemana(1));
+        diasDaSemana(7);
     }
     //Uso de assertiva apenas em class privadas onde o dev tem o controle total sobre o que será inserido,
     //sendo um medida para encontrar erro no método. Exemplo de uso:
@@ -27,18 +27,31 @@ public class CalculaSalarioTest {
 
     //Caso onde pode-se usar assertiva em uma class pública,
 
-    public static String diasDaSemana(int dia){
+    public static void diasDaSemana(int dia){
         String day = null;
         switch(dia){
-            case 1: return day = "segunda";
-            case 2: return day = "terça";
-            case 3: return day = "quarta";
-            case 4: return day = "quinta";
-            case 5: return day = "sexta";
-            case 6: return day = "sábado";
-            case 7: return day = "domingo";
+            case 1:
+                System.out.println("domingo");
+                break;
+            case 2:
+                System.out.println("segunda");
+                break;
+            case 3:
+                System.out.println("terça");
+                break;
+            case 4:
+                System.out.println("quarta");
+                break;
+            case 5:
+                System.out.println("quinta");
+                break;
+            case 6:
+                System.out.println("sexta");
+                break;
+            case 7:
+                System.out.println("sábado");
+                break;
             default: assert false;
         }
-        return day;
     }
 }
