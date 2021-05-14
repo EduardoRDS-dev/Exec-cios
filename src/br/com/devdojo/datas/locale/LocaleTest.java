@@ -1,4 +1,4 @@
-package br.com.devdojo.datas.locale.Locale;
+package br.com.devdojo.datas.locale;
 
 import javax.sound.midi.Soundbank;
 import java.text.DateFormat;
