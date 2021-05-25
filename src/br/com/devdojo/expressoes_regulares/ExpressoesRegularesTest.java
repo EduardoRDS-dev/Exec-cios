@@ -2,6 +2,7 @@ package br.com.devdojo.expressoes_regulares;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.regex.PatternSyntaxException;
 
 public class ExpressoesRegularesTest {
 

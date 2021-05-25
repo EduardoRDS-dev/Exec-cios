@@ -30,3 +30,15 @@ de entrada, possibilitando a execução de buscas, retorno de resultados, extra�
 informações e dados agrupados. Para utilizar, deve-se obter uma referência de Matcher por meio 
 do método `.matcher();` chamado por uma referência de Pattern.
 
+* Class PatternSyntaxException
+
+### Declaração: ###
+
+```
+
+```
+
+A classe PatternSyntaxException permite o controle e tratamento de exceções lançadas durante o uso
+de expressões regulares. Através da verificação desse tipo de exceção, é possível ter um controle 
+maior sobre os erros gerados a partir de consultas quando a sintaxe do padrão informada à aplicação
+é inválida. 
