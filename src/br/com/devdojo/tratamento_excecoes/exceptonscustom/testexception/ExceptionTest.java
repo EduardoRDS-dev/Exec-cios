@@ -1,6 +1,6 @@
-package br.com.devdojo.tratamentoexecoes.exceptonscustom.testexception;
+package br.com.devdojo.tratamento_excecoes.exceptonscustom.testexception;
 
-import br.com.devdojo.tratamentoexecoes.exceptonscustom.Logar;
+import br.com.devdojo.tratamento_excecoes.exceptonscustom.Logar;
 
 public class ExceptionTest {
 

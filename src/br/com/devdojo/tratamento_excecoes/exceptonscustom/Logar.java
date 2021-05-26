@@ -1,4 +1,4 @@
-package br.com.devdojo.tratamentoexecoes.exceptonscustom;
+package br.com.devdojo.tratamento_excecoes.exceptonscustom;
 import java.util.Scanner;
 
 public class Logar {

@@ -1,4 +1,4 @@
-package br.com.devdojo.tratamentoexecoes.trywithresources;
+package br.com.devdojo.tratamento_excecoes.trywithresources;
 
 public class TryWithResources {
     public static void main(String[] args) {

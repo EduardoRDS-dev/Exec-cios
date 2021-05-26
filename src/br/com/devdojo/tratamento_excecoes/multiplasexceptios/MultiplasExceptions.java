@@ -1,4 +1,4 @@
-package br.com.devdojo.tratamentoexecoes.multiplasexceptios;
+package br.com.devdojo.tratamento_excecoes.multiplasexceptios;
 
 import java.io.File;
 import java.io.IOException;

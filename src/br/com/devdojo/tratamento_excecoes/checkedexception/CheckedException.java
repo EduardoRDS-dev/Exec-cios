@@ -1,4 +1,4 @@
-package br.com.devdojo.tratamentoexecoes.checkedexception;
+package br.com.devdojo.tratamento_excecoes.checkedexception;
 
 import java.io.File;
 import java.io.IOException;
