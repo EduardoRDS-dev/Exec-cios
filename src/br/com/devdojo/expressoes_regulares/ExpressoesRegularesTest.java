@@ -23,7 +23,7 @@ public class ExpressoesRegularesTest {
         String regex1 = "(\\d){2}(\\s|-|/)(\\d){2}(\\s|-|/)(\\d){2,4}(\\s|$)";
         Pattern pattern1 = Pattern.compile(regex1);
         Matcher matcher1 = pattern1.matcher(texto1);
-
+        System.out.println("#########################################");
         while(matcher1.find()){
             System.out.println("data: "+matcher1.group());
         }
