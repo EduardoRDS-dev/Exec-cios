@@ -1,4 +1,4 @@
-package br.com.devdojo.assertivas.test;
+package br.com.devdojo.assertivas;
 
 
 public class CalculaSalarioTest {

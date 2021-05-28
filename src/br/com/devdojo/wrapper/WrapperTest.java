@@ -1,4 +1,4 @@
-package br.com.devdojo.wrapper.test;
+package br.com.devdojo.wrapper;
 
 public class WrapperTest {
 
