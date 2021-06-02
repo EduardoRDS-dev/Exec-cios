@@ -8,28 +8,30 @@ public class CalculaSalarioTest {
         System.out.println(calcSalario(5000));
         diasDaSemana(7);
     }
+
     //Uso de assertiva apenas em class privadas onde o dev tem o controle total sobre o que será inserido,
     //sendo um medida para encontrar erro no método. Exemplo de uso:
-    private static double calculaSalario(double salario){
+    private static double calculaSalario(double salario) {
         double total;
-        assert(salario > 0):"Salário não pode ser menor que zero!";
+        assert (salario > 0) : "Salário não pode ser menor que zero!";
         return total = (salario * 0.5) + salario;
     }
+
     //Em casos de métodos públicos o melhor a se usar pra prevenir ou testar é um if para testar o que
     // foi inserido e lançar uma exception caso o não corresponda ao esperado.  Exemplo de uso:
-     public static double calcSalario(double salario){
+    public static double calcSalario(double salario) {
         double total;
-        if(salario < 0 ){
+        if (salario < 0) {
             throw new IllegalArgumentException("Salário não pode ser menor que zero!");
         }
-        return total = (salario * 0.5)+salario;
+        return total = (salario * 0.5) + salario;
     }
 
     //Caso onde pode-se usar assertiva em uma class pública,
 
-    public static void diasDaSemana(int dia){
+    public static void diasDaSemana(int dia) {
         String day = null;
-        switch(dia){
+        switch (dia) {
             case 1:
                 System.out.println("domingo");
                 break;
@@ -51,7 +53,8 @@ public class CalculaSalarioTest {
             case 7:
                 System.out.println("sábado");
                 break;
-            default: assert false;
+            default:
+                assert false;
         }
     }
 }

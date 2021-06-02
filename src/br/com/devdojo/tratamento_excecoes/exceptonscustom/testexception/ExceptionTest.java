@@ -7,9 +7,9 @@ public class ExceptionTest {
     public static void main(String[] args) {
 
         Logar log = new Logar();
-        try{
+        try {
             System.out.println(log.logar());
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

@@ -1,15 +1,16 @@
 package br.com.devdojo.tratamento_excecoes.exceptonscustom;
+
 import java.util.Scanner;
 
 public class Logar {
 
-    private String senhaBancoDeDados = "test_senha";
-    private String emailBancoDeDados = "Eduardo_test@exemplo.com";
+    private final String senhaBancoDeDados = "test_senha";
+    private final String emailBancoDeDados = "Eduardo_test@exemplo.com";
 
-    public Logar(){
+    public Logar() {
     }
 
-    public boolean logar() throws LoginInvalidException{
+    public boolean logar() throws LoginInvalidException {
         Scanner entrada = new Scanner(System.in);
         System.out.println("digite seu email:");
         String email = entrada.nextLine();

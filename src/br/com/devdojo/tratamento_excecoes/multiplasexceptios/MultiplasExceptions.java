@@ -21,7 +21,7 @@ public class MultiplasExceptions {
         int num = 20, num2 = 10, result;
 
         try {
-            result = num/num2;
+            result = num / num2;
             System.out.println(file.createNewFile());
             System.out.println(result);
         } catch (IOException | RuntimeException e) {

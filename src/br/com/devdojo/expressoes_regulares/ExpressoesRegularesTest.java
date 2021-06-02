@@ -14,8 +14,8 @@ public class ExpressoesRegularesTest {
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto);
 
-        while(matcher.find()){
-            System.out.println("email: "+matcher.group());
+        while (matcher.find()) {
+            System.out.println("email: " + matcher.group());
         }
 
         // procurar datas no formato = dd/mm/yyyy ou dd/mm/yy
@@ -24,8 +24,8 @@ public class ExpressoesRegularesTest {
         Pattern pattern1 = Pattern.compile(regex1);
         Matcher matcher1 = pattern1.matcher(texto1);
         System.out.println("#########################################");
-        while(matcher1.find()){
-            System.out.println("data: "+matcher1.group());
+        while (matcher1.find()) {
+            System.out.println("data: " + matcher1.group());
         }
 
     }

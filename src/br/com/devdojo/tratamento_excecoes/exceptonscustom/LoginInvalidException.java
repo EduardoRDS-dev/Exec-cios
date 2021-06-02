@@ -1,8 +1,8 @@
 package br.com.devdojo.tratamento_excecoes.exceptonscustom;
 
-public class LoginInvalidException extends Exception{
+public class LoginInvalidException extends Exception {
 
-    public LoginInvalidException(){
+    public LoginInvalidException() {
         super("senha ou email invalido!");
     }
 }
