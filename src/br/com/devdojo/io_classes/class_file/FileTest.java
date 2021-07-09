@@ -44,6 +44,8 @@ public class FileTest {
 
         File file = new File("mensagem");
         String[] arquivos = file.list();
+        System.out.println("#################################\nlista de arquivos:");
+        assert arquivos != null;
         for(String aux: arquivos){
             System.out.println(aux);
         }

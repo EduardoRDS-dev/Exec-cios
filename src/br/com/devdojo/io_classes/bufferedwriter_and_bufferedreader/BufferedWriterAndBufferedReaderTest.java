@@ -5,7 +5,7 @@ import java.io.*;
 public class BufferedWriterAndBufferedReaderTest {
     public static void main(String[] args) {
 
-        File file = new File("arquivo.txt");
+        File file = new File("arquivoStream.txt");
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file, true));
              BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
 
